@@ -20,7 +20,7 @@ const GlobalFigures = () => {
       specialty: "Poeta",
       movement: "Cultismo (Gongorismo)",
       description: "Poeta espanhol criador do cultismo barroco",
-      biography: "Luis de Góngora y Argote foi um poeta espanhol considerado o máximo expoente do cultismo barroco. Nascido em Córdoba, desenvolveu um estilo poético caracterizado pela complexidade sintática, uso de cultismos, metáforas elaboradas e ornamentação excessiva da linguagem. Sua obra influenciou profundamente a literatura barroca em toda a Europa e América.",
+      biography: "Luís de Góngora foi um dos maiores poetas do Barroco espanhol, conhecido por seu estilo culto e complexo, chamado culteranismo, marcado pelo uso de metáforas elaboradas, inversões sintáticas e linguagem erudita. Sua obra, como o poema Soledades, buscava criar beleza estética acima da clareza imediata, refletindo o gosto barroco pela intensidade, pela ornamentação e pelo contraste entre aparência e essência.",
       contributions: [
         "Criação do estilo cultista (gongorismo)",
         "Renovação da linguagem poética",
@@ -45,7 +45,7 @@ const GlobalFigures = () => {
       specialty: "Escritor",
       movement: "Conceptismo (Quevedismo)",
       description: "Escritor espanhol mestre do conceptismo barroco",
-      biography: "Francisco Gómez de Quevedo y Santibáñez Villegas foi um escritor espanhol do Século de Ouro, considerado um dos maiores representantes do conceptismo barroco. Sua obra caracteriza-se pelo jogo de ideias, argumentação engenhosa, uso de paradoxos e antíteses. Além de poeta, foi prosista, político e filósofo.",
+      biography: "Francisco de Quevedo é um escritor renomado reconhecido por ser o maior escritor epanhol do Barroco. Ele produziu obras que mesclavam a poesia e prosoa baseados em temas religiosos, filosoficos, satiricos e políticos da epoca. Quevedo fazia uso do cultismo para refletir a sua perspectiva de um mundo em crise, destacando o contraste da vida e morte, espiritual e material. O escritor é notabilizado por seu dominio na poesia moral e satirica no Barroco da Espanha.",
       contributions: [
         "Desenvolvimento do conceptismo",
         "Sátira social e política",

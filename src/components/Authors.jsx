@@ -64,8 +64,14 @@ const Authors = () => {
       mainWork: 'Os Sermões',
       image: vieiraImg,
       description: 'Mestre do conceptismo e um dos maiores oradores sacros da língua portuguesa.',
-      biography: 'Padre António Vieira (1608-1697) foi uma das figuras mais influentes de seu tempo. Jesuíta, missionário, diplomata e escritor, destacou-se por sua oratória e por seus sermões, que são considerados obras-primas do conceptismo. Defendeu os direitos dos povos indígenas e dos judeus, o que lhe rendeu perseguições pelo Tribunal do Santo Ofício. Sua prosa é marcada pela argumentação engenhosa e pelo domínio retórico.',
-      style: 'Mestre do conceptismo, Vieira utilizava uma argumentação lógica e intrincada, com base em metáforas, alegorias e paradoxos. Seus sermões são construídos de forma a persuadir o ouvinte através da razão e da emoção, com um discurso religioso que aliava teologia e política.',
+      biography: (
+        <>
+          Padre Antônio Vieira foi um dos maiores oradores do período barroco e uma figura central da literatura luso-brasileira. Ele nasceu em Lisboa, mas viveu boa parte de sua vida no Brasil, principalmente em Salvador. Como jesuíta, dedicou-se à evangelização, à defesa dos povos indígenas e também foi conselheiro político do rei de Portugal.
+          <br /><br />
+          O sermão se tornou uma arma crucial para divulgar os valores da igreja romana, sendo bastante utilizado durante o século XVII, em meio às disputas entre católicos e protestantes.
+        </>
+      ),
+      style: 'O estilo de escrita de Vieira é tipicamente barroco. Sua linguagem é rebuscada, marcada por contrastes, antíteses e paradoxos, recurso comum para transmitir a complexidade da vida humana diante de Deus. Fazia uso abundante de metáforas e imagens poéticas, muitas vezes retiradas da natureza ou do cotidiano, para ilustrar conceitos abstratos e espirituais. Além disso, sua oratória era dramática e persuasiva, sempre buscando tocar a razão e a emoção ao mesmo tempo.',
       works: ['Sermão da Sexagésima', 'Sermão pelo Bom Sucesso das Armas de Portugal contra as de Holanda', 'História do Futuro']
     }
   ]

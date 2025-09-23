@@ -36,20 +36,24 @@ const Works = () => {
         literaryDevices: ['Hipérbatos', 'Metáforas elaboradas', 'Linguagem erudita', 'Inversões sintáticas']
       },
       {
-        id: 2,
-        title: 'Os Sermões',
-        author: 'Padre António Vieira',
-        year: '1679',
-        genre: 'Prosa Sacra',
-        image: sermoesImg,
-        description: 'Coletânea de sermões que representa o auge da prosa barroca luso-brasileira, marcada pelo conceptismo.',
-        importance: 'Obra-prima da oratória sacra e do conceptismo barroco',
-        characteristics: ['Conceptismo', 'Argumentação engenhosa', 'Metáforas', 'Antíteses'],
-        excerpt: `"Vós, diz Cristo, Senhor nosso, falando com os pregadores, sois o sal da terra: e chama-lhes sal da terra, porque quer que façam na terra o que faz o sal. O efeito do sal é impedir a corrupção..."`,
-        analysis: 'Os Sermões de Vieira representam o auge do conceptismo barroco, caracterizado pela argumentação engenhosa e pelo jogo de ideias. O autor utiliza metáforas elaboradas, como "o sal da terra" para os pregadores, demonstrando sua habilidade retórica. A obra combina fé e razão, típico do espírito barroco, apresentando argumentos lógicos para defender pontos de vista religiosos.',
-        context: 'Escritos no contexto da Contrarreforma, os sermões refletem a necessidade da Igreja Católica de reafirmar sua doutrina. Vieira, como jesuíta, utilizava a oratória como instrumento de catequese e persuasão, adaptando a mensagem cristã às realidades do Brasil colonial.',
-        literaryDevices: ['Metáforas', 'Antíteses', 'Paradoxos', 'Comparações', 'Silogismos']
-      },
+  id: 2,
+  title: 'Os Sermões',
+  author: 'Padre António Vieira',
+  year: '1679',
+  genre: 'Prosa Sacra',
+  image: sermoesImg,
+  description: 'Coletânea de sermões que representa o auge da prosa barroca luso-brasileira, marcada pelo conceptismo.',
+  importance: 'Obra-prima da oratória sacra e do conceptismo barroco',
+  characteristics: ['Conceptismo', 'Argumentação engenhosa', 'Metáforas', 'Antíteses'],
+  excerpt: `"Vós, diz Cristo, Senhor nosso, falando com os pregadores, sois o sal da terra: e chama-lhes sal da terra, porque quer que façam na terra o que faz o sal. O efeito do sal é impedir a corrupção..."`,
+  analysis: `Os sermões escritos por Padre Antônio Vieira se tornaram famosos por conta de sua argumentação engenhosa e sua retórica perfeita. O seu domínio incomum das palavras garantiu que ele entrasse nas cortes mais importantes da europa quando era jovem, além de conquistar a influência do rei de Portugal. Porém, esse mesmo dom com as palavras tornou-o vítima de perseguição pelo tribunal do santo ofício.
+
+Ao mesmo tempo em que o discurso religioso de Antônio Vieira era profundo, eles também eram bem práticos. Ele partia os seus sermões a partir de passagens bíblicas que se aplicavam para a contemporaneidade da época. Assim, conseguia unir a fé cristã com críticas à escravidão, à exploração dos indígenas e às injustiças políticas. Seu objetivo era catequizar, mas também conscientizar, mostrando que a religião não deveria estar separada da vida social.
+
+Sua metodologia seguia uma ordem clara e persuasiva. Primeiro, apresentava um tema bíblico que servia de base para toda a pregação. Em seguida, fazia uma explicação teológica do texto sagrado, interpretando-o de acordo com a doutrina católica. Depois, transportava essa interpretação para os problemas do presente, criando paralelos entre as Escrituras e a realidade do público. Por fim, utilizava exemplos, metáforas e imagens fortes para convencer, comover e mover os ouvintes à ação.`,
+  context: 'Escritos no contexto da Contrarreforma, os sermões refletem a necessidade da Igreja Católica de reafirmar sua doutrina. Vieira, como jesuíta, utilizava a oratória como instrumento de catequese e persuasão, adaptando a mensagem cristã às realidades do Brasil colonial.',
+  literaryDevices: ['Metáforas', 'Antíteses', 'Paradoxos', 'Comparações', 'Silogismos']
+},
       {
         id: 3,
         title: 'Antologia Poética',
@@ -61,7 +65,7 @@ const Works = () => {
         importance: 'Maior expressão da poesia barroca brasileira',
         characteristics: ['Dualismo', 'Sátira social', 'Lirismo amoroso', 'Religiosidade'],
         excerpt: `"Que falta nesta cidade? Verdade.\nQue mais por sua desonra? Honra.\nFalta mais que se lhe ponha? Vergonha..."`,
-        analysis: 'A poesia de Gregório de Matos exemplifica perfeitamente o dualismo barroco, oscilando entre o sagrado e o profano, o amor e o desprezo, a fé e a dúvida. Sua poesia satírica, que lhe rendeu o apelido de "Boca do Inferno", critica mordazmente a sociedade baiana, utilizando linguagem popular e erudita. A vertente lírica explora temas como a fugacidade da vida e a beleza feminina, enquanto a sacra revela conflitos espirituais típicos do homem barroco.',
+        analysis: 'A Antologia Poética de Gregório de Matos reúne uma seleção dos poemas mais representativos do autor, conhecido como o “Boca do Inferno”. Seus versos exploram diferentes facetas: a sátira mordaz contra a corrupção, o clero e os costumes da sociedade baiana do século XVII; a poesia lírica, marcada por reflexões sobre o amor, o desejo e a fugacidade da vida; e a poesia religiosa, em que o poeta revela arrependimento e busca de redenção espiritual. Essa diversidade mostra a riqueza de sua obra e a profundidade de seu olhar crítico e humano.',
         context: 'Produzida na Bahia do século XVII, a poesia reflete as contradições da sociedade colonial: a riqueza dos senhores de engenho contrastando com a pobreza, a religiosidade convivendo com a corrupção, a cultura erudita europeia adaptando-se à realidade tropical brasileira.',
         literaryDevices: ['Antíteses', 'Paradoxos', 'Hipérboles', 'Jogos de palavras', 'Linguagem coloquial e erudita']
       }
@@ -294,7 +298,7 @@ const Works = () => {
 
                   {/* Analysis */}
                   <div>
-                    <h3 className="text-xl font-bold mb-3 text-secondary">Análise</h3>
+                    <h3 className="text-xl font-bold mb-3 text-secondary">Conteúdo</h3>
                     <p className="text-muted-foreground leading-relaxed">
                       <span className="initial-capital">
                         {selectedWork.analysis.charAt(0)}

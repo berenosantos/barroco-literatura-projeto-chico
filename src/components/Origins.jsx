@@ -143,8 +143,7 @@ const Origins = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-700">
-                  Economia baseada na cana-de-açúcar e trabalho escravo. Posteriormente, 
-                  a descoberta do ouro em Minas Gerais transformou o cenário cultural.
+                  Havia uma gradual perda de clientes para a Holanda em relação à cana-de-açúcar. Esta era a base da economia colonial no período.
                 </p>
               </CardContent>
             </Card>
@@ -158,8 +157,7 @@ const Origins = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-700">
-                  Salvador e Recife como principais centros culturais. O Nordeste foi o berço 
-                  da literatura barroca brasileira com Gregório de Matos e Bento Teixeira.
+                  Os centros do Barroco no Brasil localizavam-se principalmente no Nordeste, na Bahia, por conta dos engenhos de cana-de-açúcar. A região gerou escritores famosos como Gregório de Matos e o Padre Antônio Vieira.
                 </p>
               </CardContent>
             </Card>
@@ -187,8 +185,7 @@ const Origins = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-700">
-                  Modelo estético cultivado em Portugal e Espanha, com características 
-                  do cultismo gongorino e do conceptismo quevediano.
+                  Todo o material artístico e literário do Brasil advinha de origem portuguesa e, consequentemente, espanhola. Entre 1580-1640, Portugal e Espanha formaram uma só nação. Os escritores e artistas brasileiros tinham como modelo a estética cultivada em Portugal e na Espanha.
                 </p>
               </CardContent>
             </Card>
@@ -202,8 +199,7 @@ const Origins = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-700">
-                  A descoberta do ouro em Minas Gerais no final do século XVII transformou 
-                  a economia e a cultura, criando novos centros artísticos.
+                  A descoberta do ouro fez de Minas Gerais um centro para o Barroco, especialmente na arte religiosa. Produziu-se ali, no Barroco tardio, um dos maiores artistas brasileiros: Aleijadinho.
                 </p>
               </CardContent>
             </Card>

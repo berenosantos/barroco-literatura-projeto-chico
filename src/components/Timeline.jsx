@@ -28,12 +28,12 @@ const Timeline = () => {
     },
     {
       id: 3,
-      year: 'Século XVII',
-      title: 'Contexto Socioeconômico no Brasil',
-      description: 'Ciclo da cana-de-açúcar no Nordeste e conflitos.',
+      year: '1630',
+      title: 'Consolidando o Barroco nas cidades coloniais',
+      description: 'Primeiras manifestações barrocas em igrejas e arte sacra no Brasil colonial.',
       type: 'historico',
       icon: MapPin,
-      details: 'O Barroco brasileiro desenvolve-se em um contexto de grandes tensões sociais e econômicas, com foco no Nordeste açucareiro. Conflitos entre metropolitanos e colonos, e a posterior descoberta de ouro em Minas Gerais, moldam a instabilidade social refletida na arte.'
+      details: 'Salvador e Olinda começam a apresentar igrejas, pinturas e esculturas totalmente influenciadas pelo estilo barroco europeu, misturando religiosidade e dramatismo.'
     },
     {
       id: 4,
@@ -44,14 +44,14 @@ const Timeline = () => {
       icon: User,
       details: 'Gregório de Matos, o \'Boca do Inferno\', nasce em Salvador. Sua obra poética abrangerá as vertentes lírica, satírica e religiosa, tornando-se a mais alta expressão do Barroco no Brasil.'
     },
-    {
+    { 
       id: 5,
-      year: 1645,
-      title: 'Concílio de Trento e Contrarreforma',
-      description: 'A Igreja Católica reage à Reforma Protestante.',
+      year: 1641,
+      title: 'Publicação de obras religiosas barrocas em Portugal',
+      description: 'Obras como sermões de Padre António Vieira começam a se espalhar pelo Brasil',
       type: 'religiao',
       icon: Church,
-      details: 'As decisões do Concílio de Trento (1545-1563) continuam a influenciar fortemente a cultura e a arte. A Contrarreforma promove uma arte religiosa que busca reafirmar os dogmas católicos e despertar a emoção dos fiéis, o que se reflete no Barroco.'
+      details: 'Em 1641, obras religiosas barrocas, como os sermões de Padre António Vieira, são publicadas em Portugal e começam a se difundir no Brasil. Essa circulação influencia a literatura e a cultura colonial, reforçando valores religiosos e morais e marcando o início da consolidação do Barroco na colônia.'
     },
     {
       id: 6,
@@ -75,7 +75,7 @@ const Timeline = () => {
       id: 8,
       year: 1768,
       title: 'Fim do Barroco e Início do Arcadismo',
-      description: 'Fundação da Arcádia Ultramarina.',
+      description: 'Declínio do Barroco e surgimento de novos estilos',
       type: 'transicao',
       icon: Feather,
       details: 'A fundação da Arcádia Ultramarina em Vila Rica (MG) e a publicação de Obras Poéticas de Cláudio Manuel da Costa marcam o início do Arcadismo no Brasil, um movimento que se oporá aos excessos do Barroco, buscando a simplicidade e a razão.'

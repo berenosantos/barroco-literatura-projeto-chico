@@ -28,33 +28,39 @@ const Authors = () => {
       works: ['Prosopopeia (1601)']
     },
     {
-      id: 2,
-      name: 'Gregório de Matos',
-      nickname: 'Boca do Inferno',
-      period: '1636-1696',
-      birthPlace: 'Salvador, Bahia',
-      mainWork: 'Poesia Lírica, Satírica e Sacra',
-      image: gregorioImg,
-      description: 'O maior poeta barroco brasileiro, conhecido por sua poesia satírica mordaz e sua lírica complexa.',
-      biography: (
-        <>
-          <p>
-            Nascido em 1636 na cidade de Salvador, Bahia, Gregório de Matos foi um dos maiores, senão o maior, escritor brasileiro do Barroco, trabalhando com poesias amorosas, circunstanciais e religiosas. Desde o início de sua vida, Gregório sempre teve uma posição privilegiada na sociedade, vindo de uma família de classe média-alta, tornando-se juiz em Coimbra - Portugal - e, ao voltar ao Brasil, aos 47 anos, exercendo os cargos de tesoureiro-mor e vigário-geral. No entanto, ele não se conformou com as injustiças vistas por ele e, através da escrita, trabalhou para criticar os corruptos e tentar mudar a sociedade em que ele vivia.
-          </p>
-          <p>
-            Por conta disso, Gregório perdeu os seus cargos e foi perseguido pela alta casta, sendo julgado como irreverente e com comportamentos considerados indecorosos, ganhando o apelido de "Boca do Inferno" devido à ousadia nas suas críticas aos costumes e à sociedade da época. Além disso, houve um período em que foi exilado em Angola, na África e, ao retornar para o Brasil, não foi permitido entrar na Bahia, se estabelecendo no Recife, onde, aos 59 anos de idade, morreu.
-          </p>
-        </>
-      ),
-      style: (
-        <>
-          Tendo influência camoniana e herdado de sua estrutura poética, Gregório de Matos é marcado, principalmente por conta de sua poesia, utilizando bastante do cultismo - jogo de palavras sofisticadas, com figuras de linguagem e imagens poéticas para gerar efeito de sentido -, além de ser famoso por conta de suas críticas à sociedade. Além disso, a escrita e os poemas de Gregório podem ser definidos em três partes diferentes: a poesia amorosa, a circunstancial e a religiosa.
-          <br /><br />
-          A poesia amorosa contém tanto a poesia lírica, que trata de temas clássicos, como a oposição entre o espírito e a matéria, quanto a poesia erótico-irônica, que também inclui aspectos satíricos, mas é mais ligada a motivos relacionados a sensualidade. Ademais, a poesia religiosa se trata, principalmente, da poesia sacra, que tematiza a culpa e o perdão, a vida comum como um trânsito para a vida eterna, se relaciona com a poesia lírica, trabalha o senso de pecado e constata a fragilidade e a efemeridade da vida humana. Por fim, a poesia circunstancial é o tipo de poesia que mais representa Gregório de Matos, possuindo a poesia encomiástica, a poesia graciosa e, mais importante, a poesia satírica, em que Gregório fazia críticas gerais à sociedade, denunciando a corrupção econômica dos políticos, moral dos religiosos e a condição de vida na Bahia e em Pernambuco.
-        </>
-      ),
-      works: ['Antologia Poética (póstuma)']
-    },
+  id: 2,
+  name: 'Gregório de Matos',
+  nickname: 'Boca do Inferno',
+  period: '1636-1696',
+  birthPlace: 'Salvador, Bahia',
+  mainWork: 'Poesia Lírica, Satírica e Sacra',
+  image: gregorioImg,
+  description: 'O maior poeta barroco brasileiro, conhecido por sua poesia satírica mordaz e sua lírica complexa.',
+  biography: (
+    <>
+      <p>
+        Nascido em 1636 na cidade de Salvador, Bahia, Gregório de Matos foi um dos maiores, senão o maior, escritor brasileiro do Barroco, trabalhando com poesias amorosas, circunstanciais e religiosas. Desde o início de sua vida, Gregório sempre teve uma posição privilegiada na sociedade, vindo de uma família de classe média-alta, tornando-se juiz em Coimbra - Portugal - e, ao voltar ao Brasil, aos 47 anos, exercendo os cargos de tesoureiro-mor e vigário-geral. No entanto, ele não se conformou com as injustiças vistas por ele e, através da escrita, trabalhou para criticar os corruptos e tentar mudar a sociedade em que ele vivia.
+      </p>
+      <p>
+        Por conta disso, Gregório perdeu os seus cargos e foi perseguido pela alta casta, sendo julgado como irreverente e com comportamentos considerados indecorosos, ganhando o apelido de "Boca do Inferno" devido à ousadia nas suas críticas aos costumes e à sociedade da época. Além disso, houve um período em que foi exilado em Angola, na África e, ao retornar para o Brasil, não foi permitido entrar na Bahia, se estabelecendo no Recife, onde, aos 59 anos de idade, morreu.
+      </p>
+    </>
+  ),
+  style: (
+    <>
+      Tendo influência camoniana e herdado de sua estrutura poética, Gregório de Matos é marcado, principalmente por conta de sua poesia, utilizando bastante do cultismo - jogo de palavras sofisticadas, com figuras de linguagem e imagens poéticas para gerar efeito de sentido -, além de ser famoso por conta de suas críticas à sociedade. Além disso, a escrita e os poemas de Gregório podem ser definidos em três partes diferentes: a poesia amorosa, a circunstancial e a religiosa.
+      <br /><br />
+      A poesia amorosa contém tanto a poesia lírica, que trata de temas clássicos, como a oposição entre o espírito e a matéria, quanto a poesia erótico-irônica, que também inclui aspectos satíricos, mas é mais ligada a motivos relacionados a sensualidade. Ademais, a poesia religiosa se trata, principalmente, da poesia sacra, que tematiza a culpa e o perdão, a vida comum como um trânsito para a vida eterna, se relaciona com a poesia lírica, trabalha o senso de pecado e constata a fragilidade e a efemeridade da vida humana. Por fim, a poesia circunstancial é o tipo de poesia que mais representa Gregório de Matos, possuindo a poesia encomiástica, a poesia graciosa e, mais importante, a poesia satírica, em que Gregório fazia críticas gerais à sociedade, denunciando a corrupção econômica dos políticos, moral dos religiosos e a condição de vida na Bahia e em Pernambuco.
+    </>
+  ),
+  works: [
+    'Antologia Poética (póstuma)',
+    'A Jesus Cristo Nosso Senhor (poesia sacra)',
+    'À Cidade da Bahia (poesia satírica)',
+    'Nasce o Sol, e não dura mais que um dia (poesia lírica)'
+  ],
+  worksNote: 'Por conta da dificuldade da propagação da literatura e da ausência de imprensa no Brasil, Gregório de Matos não teve nenhuma obra publicada em vida, tendo os seus poemas sendo circulados por meio da tradição oral e em manuscritos até meados do século XIX, quando seus poemas foram reunidos em um livro chamado “Tomo I do Florilégio da poesia brasileira”, de Francisco Adolfo de Varnhagen. Inclusive, por esse motivo, é comum que os poemas de Gregório apresentem variações no vocabulário quando comparadas diferentes edições e que haja controvérsias quanto a autoria do soteropolitano em alguns dos poemas a ele atribuídos. Apesar disso, Gregório de Matos ainda assim tem suas obras reconhecidas como as fundadoras da tradição lírica brasileira e foi a figura mais marcante do Barroco brasileiro.'
+},
     {
       id: 3,
       name: 'Padre António Vieira',
@@ -209,6 +215,11 @@ const Authors = () => {
                           {work}
                         </li>
                       ))}
+                      {selectedAuthor.worksNote && (
+                        <li className="text-xs text-muted-foreground mt-2 italic">
+                          {selectedAuthor.worksNote}
+                        </li>
+                      )}
                     </ul>
                   </div>
                 </div>
